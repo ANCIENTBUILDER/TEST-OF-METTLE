@@ -15,4 +15,11 @@ Account Verification
   Free Member
   Paid Member - annual/monthly/weekly
     Customize or submit Avatar = avatar becomes NFT by blockchain transaction
-    Security feature verifies identity without disclosure of identity through NFT
+    Security feature verifies identity without disclosure of identity in game through NFT avatar
+  Paid Member - Pkg
+    Platinum
+    Gold
+    Silver
+    Bronze
+    Plastic
+    Wood
