@@ -27,7 +27,7 @@ Account Verification
     Plastic - merchandise pkg
     Wood - merchandise pkg
     Black - merchandise pkg
-Experience 1: 
+Experience 1: Cost = Train = Free Compete = 1 AAT
               .00369 XP + .00369 AAT for training session
               .00369 XP + .00369 AAT for training session
               
