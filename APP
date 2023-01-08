@@ -12,3 +12,6 @@ Promo Screen with red/blue fire fist image
   Blue Fist closes app
 Member Sign Up (custom NFT issued) 
 Account Verification
+  Free Member
+  Paid Member - annual/monthly/weekly
+
