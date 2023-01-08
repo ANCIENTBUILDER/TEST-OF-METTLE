@@ -4,6 +4,7 @@ TEST OF METTLE Crossplatform Application
 Function: seamless virtual and physical integration for the Test of Mettle video game.
 GPS Location integration for navigation.
 GPS needs to lead members to any Host Site location.
+Biometric software from biosuit must communicate with App and video game (updates)
 Host Sites require 24 hour security, either by video or physical security guard and attendent.
 Security Guards and attendents are actual NPCs in the Test of Mettle video game.
 Software needs to provide seamless activity in virtual and physical experiences.
@@ -17,7 +18,7 @@ Account Verification
     Customize or submit Avatar = avatar becomes NFT by blockchain transaction
     Security feature verifies identity without disclosure of identity in game through NFT avatar
   Paid Member - Pkg
-    Alpha Founder
+    Alpha Founder - merchandise pkg with biosuit
     Beta Founder
     Platinum
     Gold
