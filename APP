@@ -4,3 +4,4 @@ Function: seamless virtual and physical integration for the Test of Mettle video
 GPS Location integration for navigation.
 GPS needs to lead members to any Host Site location.
 Host Sites require 24 hour security, either by video or physical security guard and attendent.
+Security Guards and attendents are actual NPCs in the Test of Mettle video game.
