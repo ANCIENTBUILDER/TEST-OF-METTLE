@@ -19,8 +19,8 @@ Account Verification
     Security feature verifies identity without disclosure of identity in game through NFT avatar
   Paid Member - Pkg
     Alpha Founder - merchandise pkg with biosuit
-    Beta Founder
-    Platinum
+    Beta Founder - merchandise pkg with biosuit
+    Platinum - merchandise pkg with biosuit
     Gold
     Silver
     Bronze
