@@ -21,9 +21,9 @@ Account Verification
     Alpha Founder - merchandise pkg with biosuit
     Beta Founder - merchandise pkg with biosuit
     Platinum - merchandise pkg with biosuit
-    Gold
-    Silver
-    Bronze
-    Plastic
-    Wood
-    Black
+    Gold - merchandise pkg with biosuit
+    Silver - merchandise pkg
+    Bronze - merchandise pkg
+    Plastic - merchandise pkg
+    Wood - merchandise pkg
+    Black - merchandise pkg
