@@ -8,5 +8,7 @@ Host Sites require 24 hour security, either by video or physical security guard 
 Security Guards and attendents are actual NPCs in the Test of Mettle video game.
 Software needs to provide seamless activity in virtual and physical experiences.
 Promo Screen with red/blue fire fist image
+  Red Fist opens member sign up
+  Blue Fist closes app
 Member Sign Up (custom NFT issued) 
 Account Verification
