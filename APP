@@ -17,9 +17,12 @@ Account Verification
     Customize or submit Avatar = avatar becomes NFT by blockchain transaction
     Security feature verifies identity without disclosure of identity in game through NFT avatar
   Paid Member - Pkg
+    Alpha Founder
+    Beta Founder
     Platinum
     Gold
     Silver
     Bronze
     Plastic
     Wood
+    Black
