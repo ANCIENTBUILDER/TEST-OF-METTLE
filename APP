@@ -10,8 +10,9 @@ Software needs to provide seamless activity in virtual and physical experiences.
 Promo Screen with red/blue fire fist image
   Red Fist opens member sign up
   Blue Fist closes app
-Member Sign Up (custom NFT issued) 
+Member Sign Up  
 Account Verification
   Free Member
   Paid Member - annual/monthly/weekly
-
+    Customize or submit Avatar = avatar becomes NFT by blockchain transaction
+    Security feature verifies identity without disclosure of identity through NFT
