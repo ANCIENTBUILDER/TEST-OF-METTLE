@@ -2,4 +2,4 @@ TEST OF METTLE Crossplatform Application
 
 Function: seamless virtual and physical integration for the Test of Mettle video game.
 GPS Location integration for navigation.
-
+GPS needs to lead members to any Host Site location.
