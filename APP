@@ -1,9 +1,19 @@
 TEST OF METTLE Crossplatform Application
 
 ## DEVELOPER NOTES ##
-Function: seamless virtual and physical integration for the Test of Mettle video game.
-GPS Location integration for navigation.
-GPS needs to lead members to any Host Site location.
+Virtual & Physical development applies to all elements of BIOSPHERE Resorts and its Test of Mettle.
+  Resort Development
+  Host Site Program Development
+  Business member program
+  Individual member program
+
+Function: 
+Seamless virtual and physical integration for BIOSPHERE Resorts and its Test of Mettle video game with its Host Site Program.
+
+Requirements:
+A full range of comprehensive functionality will be built upon the BSV blockchain for operation on Web 3.0.
+  GPS Location integration for navigation.
+  GPS needs to lead members to any Host Site location.
 Biometric software from biosuit must communicate with App and video game (updates)
 Host Sites require 24 hour security, either by video or physical security guard and attendent.
 Security Guards and attendents are actual NPCs in the Test of Mettle video game.
@@ -31,3 +41,5 @@ Experience 1: Cost = Train = Free Compete = 1 AAT
               .00369 XP + .00369 AAT for training session
               .00369 XP + .00369 AAT for training session
               
+ICO
+Test of Mettle will announce an ICO for its digital assets and membership...TBA.
