@@ -48,3 +48,4 @@ The experiences for businesses need to be seamless and of premium caliber.
               
 ICO
 Test of Mettle will announce an ICO for its digital assets and membership...TBA.
+We must look into ensuring separation between the controlled blockchain technologies and our blockchain, but at the same time retain inter-operability.
