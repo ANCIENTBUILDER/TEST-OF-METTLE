@@ -70,4 +70,118 @@ body, html {
 
 -----------------------------------------------------------------------------------------------------
 
+//Black Rabbit at BIOSPHERE Resort on a planet near Rygel 7
+
+// Boolean designed to stop or allow the window from changing the mouse values when the animation is happening
+var isAnimating = false;
+
+// Get Mouse Position First
+// Ref: http://www.quirksmode.org/js/events_properties.html#position for most accurate positioning.
+const getMousePos = (e) => {
+  let posX = 0;
+  let posY = 0;
+  if (!e) var e = window.event;
+  if (e.pageX || e.pageY) {
+    posX = e.pageX;
+    posY = e.pageY;
+  } else if (e.clientX || e.clientY) {
+    posX = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+    posY = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+  }
+    
+  //Add animation properties in this function, define animation function below.
+  // To maintain image stability.
+  const xPos = (posX / window.innerWidth) * 100 - 50;
+  const yPos = (posY / window.innerHeight) * 100 - 50;
+    
+  // tiltImage Function must be placed here in order to work.
+  // This is due to mouse variables not being global.
+  tiltImage(xPos, yPos);
+  
+  //Mouse Position shown in console to gain coordinates for text
+  console.log("x:" + xPos + ", y:" + yPos);
+  
+  var drunkt1 = document.getElementById('drunkt1');
+  var drunkt2 = document.getElementById('drunkt2');
+  var drunktAll = document.getElementsByClassName('drunkt');
+  
+  // Only changes the <span> and restarts the animation if an animation is not already in motion.
+  //Text animation reacts to mouse movement since is in getMousePos function.
+  if (!isAnimating) {
+    function soberText () {
+      const topLetters = ["_secret covenant", "_get paid to what?", "_mysteria", "_Good Times", "_code to get in" ];
+      const bottomLetters = ["_Test of What?!", "BIOSPHERE_where?", "_Cheezbrger and...", "_MIB had me..."];
+  
+      var topItem = topLetters[Math.floor(Math.random()*topLetters.length)];
+      var bottomItem = bottomLetters[Math.floor(Math.random()*bottomLetters.length)];
+  
+      drunkt1.innerHTML = topItem;
+      drunkt2.innerHTML = bottomItem;
+    }
+    drunkAni(soberText())
+  }
+} //The end of getMousePos
+
+// 3D Tilt Variables
+var drunk1 = document.getElementById('drunk1');
+var drunk2 = document.getElementById('drunk2');
+var drunk3 = document.getElementById('drunk3');
+var drunkAll = document.getElementsByClassName('background');
+
+
+// Setting Up 3D Tilt Effect
+TweenLite.set(drunkAll, {
+  transformStyle: 'perspective-3d',
+  transformPerspective: 900,
+  transformOrigin: 'center',
+  scale: 1.15
+});
+
+window.addEventListener('mousemove', getMousePos, false);
+  
+//Animating 3D Tilt
+const tiltImage = (xPos, yPos) => {
+  
+  TweenLite.to(drunk2, 2, { 
+    rotationY: 0.02 * xPos,
+    rotationX: 0.05 * yPos,
+    rotationZ: 0.1,
+    skewY: 0.03 * xPos,
+    skewX: 0.03 * yPos
+  });
+  
+  TweenLite.to(drunk3, 2, {
+    rotationY: 0.05 * xPos,
+    rotationX: 0.02 * yPos,
+    rotationZ: 0.05,
+    skewY: -0.1* xPos,
+    skewX: -0.1* yPos
+    
+  });
+}
+
+
+  const drunkAni = () => {
+  anime.timeline({loop: false})
+  .add({
+    targets: '.drunkSpeak',
+    scale: [1,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i,
+    begin: function() {
+      isAnimating = true;  //Helps activate animation when mouse is moving.
+    }
+  }).add({
+    targets: '.drunkSpeak',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000,
+    complete: function() {
+      isAnimating = false; //If the mouse stops moving, the animation completes itself and doesn't restart.
+    }
+  });
+}
 
