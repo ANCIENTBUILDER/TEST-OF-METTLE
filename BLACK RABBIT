@@ -9,3 +9,65 @@
   </div>
 </div>
 
+------------------------------
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  background: center url('https://i.imgur.com/rtgwmq7.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-left: -25px;
+  z-index: 1;
+}
+
+#drunk2, #drunk3 {
+  opacity: .45;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.drunkSpeak {  
+  position: absolute; 
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 60%;
+  left: 35%;
+  font-family: 'Architects Daughter', cursive;
+  color: #fff;
+  font-size: 2.7em;
+}
+
+#drunkSpeak2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.drunkt {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 800;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  line-height: 1em;
+}
+
+-----------------------------------------------------------------------------------------------------
+
+
